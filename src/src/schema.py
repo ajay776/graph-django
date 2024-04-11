@@ -30,4 +30,9 @@ class Query(graphene.ObjectType):
             return None
 
 
-schema = graphene.Schema(query=Query)
+class Mutation(graphene.ObjectType):
+    # TODO
+    pass
+
+
+schema = graphene.Schema(query=Query, )
